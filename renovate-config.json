@@ -3,6 +3,7 @@
 	"description": "Renovate Configuration used across our repositories",
 	"addLabels": ["dependencies"],
 	"assigneesFromCodeOwners": true,
+	"reviewers": ["team:dependencies"],
 	"automerge": true,
 	"configWarningReuseIssue": false,
 	"semanticCommits": "enabled",
