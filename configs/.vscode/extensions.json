@@ -1,0 +1,15 @@
+{
+	"recommendations": [
+		"EditorConfig.EditorConfig",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"DeepScan.vscode-deepscan",
+		"usernamehw.errorlens",
+		"atlassian.atlascode",
+		"aaron-bond.better-comments",
+		"Vue.volar",
+		"eamodio.gitlens",
+		"apollographql.vscode-apollo"
+	],
+	"unwantedRecommendations": ["ms-vscode.vscode-typescript-tslint-plugin"]
+}

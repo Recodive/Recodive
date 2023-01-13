@@ -1,0 +1,8 @@
+.*
+pnpm*
+*.md
+build
+dist
+__generated__
+generated
+coverage

@@ -1,0 +1,6 @@
+.*
+pnpm*
+*.md
+*.js
+*.d.ts
+coverage

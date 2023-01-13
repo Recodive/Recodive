@@ -1,0 +1,12 @@
+/dist
+/bin
+/lib
+/node_modules
+/static
+/generated
+/__generated__
+.eslintrc*
+*.svg
+*.png
+*.jpg
+*.jpeg
