@@ -1,4 +1,4 @@
-# @recodive/configs
+# @recodive/configs [![Version](https://img.shields.io/github/package-json/v/Recodive/Configs.svg)](https://github.com/Recodive/Configs) [![CI](https://github.com/Recodive/Configs/actions/workflows/CI.yml/badge.svg)](https://github.com/Recodive/Configs/actions/workflows/CI.yml)
 
 This package contains a set of configurations for our Recodive projects.
 
