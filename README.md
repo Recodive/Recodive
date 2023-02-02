@@ -1,40 +1,24 @@
-# @recodive/configs [![Version](https://img.shields.io/github/package-json/v/Recodive/Configs.svg)](https://github.com/Recodive/Configs) [![CI](https://github.com/Recodive/Configs/actions/workflows/CI.yml/badge.svg)](https://github.com/Recodive/Configs/actions/workflows/CI.yml)
-
-This package contains a set of configurations for our Recodive projects.
+# Recodive [![CI](https://github.com/Recodive/Configs/actions/workflows/CI.yml/badge.svg)](https://github.com/Recodive/Configs/actions/workflows/CI.yml)
 
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
 | ![Statements](https://img.shields.io/badge/statements-100%25-brightgreen.svg?style=flat&logo=vitest) | ![Branches](https://img.shields.io/badge/branches-100%25-brightgreen.svg?style=flat&logo=vitest) | ![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat&logo=vitest) | ![Lines](https://img.shields.io/badge/lines-100%25-brightgreen.svg?style=flat&logo=vitest) |
 
-## Configs
+This is the monorepo for the Recodive project. It contains the following packages:
 
-`.vscode/settings.json` - [VSCode](https://code.visualstudio.com/) settings file.
+- [@recodive/eslint-config](./eslint-config/README.md)
+- [@recodive/configs](./configs/README.md)
 
-`.vscode/extensions.json` - [VSCode](https://code.visualstudio.com/) extensions file.
+## Usage
+The listed packages are published on the github package registry & NPM registry. To use them, you need to add the following to your `.npmrc` file:
 
-`.editorconfig` - [EditorConfig](https://editorconfig.org/) configuration file.
+```ini
+@recodive:registry=https://npm.pkg.github.com/
+//npm.pkg.github.com/:_authToken=TOKEN
+//npm.pkg.github.com/:always-auth=true
+```
 
-`.eslintrc` - [ESLint](https://eslint.org/) configuration file.
-
-`.gitattributes` - [Git](https://git-scm.com/) attributes file.
-
-`.npmrc` - [npm](https://www.npmjs.com/) configuration file.
-
-`.prettierrc` - [Prettier](https://prettier.io/) configuration file.
-
-`.renovaterc` - [Renovate](https://renovatebot.com/) configuration file.
-
-## Husky
-
-Husky is a tool that allows you to run scripts at certain points in git's execution. It is used to run linting and testing before commits and pushes.
-
-`.husky` - [Husky](https://typicode.github.io/husky/#/) configuration file.
-
-> You need to add the following scripts to your `package.json` file:
-> `"prepare": "npx husky install"`
-
-Commitlint is used to lint commit messages. This is run on the `commit-msg` hook.
-`.commitlintrc` - [Commitlint](https://commitlint.js.org/#/) configuration file.
-
-Lint-staged is used to run linting on staged files. This is run on the `pre-commit` hook.
-`.lintstagedrc` - [lint-staged](https://github.com/okonet/lint-staged) configuration file.
+```bash
+# Install the packages you need
+pnpm add @recodive/configs
+```
