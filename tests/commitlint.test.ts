@@ -1,9 +1,9 @@
-import { describe, expect, test } from "vitest";
 import lint from "@commitlint/lint";
+import { describe, expect, test } from "vitest";
 
 describe("commitlint", () => {
 	// eslint-disable-next-line @typescript-eslint/no-var-requires
-	const { rules, parserPreset } = require("../configs/.commitlintrc.js"),
+	const { rules, parserPreset } = require("../packages/configs/configs/.commitlintrc.js"),
 		lintMessage = async (message: string) => lint(message.replace(/^\s+/, "").trim(), rules, parserPreset);
 
 	test("a valid commit message", async () => {

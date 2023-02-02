@@ -1,3 +1,11 @@
 {
-	"extends": ["github>recodive/configs//configs/.renovaterc"]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "Renovate Configuration used across our repositories",
+	"addLabels": ["dependencies"],
+	"assigneesFromCodeOwners": true,
+	"reviewers": ["team:dependencies"],
+	"automerge": true,
+	"configWarningReuseIssue": false,
+	"semanticCommits": "enabled",
+	"stabilityDays": 3
 }

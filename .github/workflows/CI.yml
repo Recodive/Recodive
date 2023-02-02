@@ -1,4 +1,4 @@
-name: Test Package
+name: Lint & Test Package
 on: ['push']
 jobs:
   build:
@@ -16,11 +16,18 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
 
       - name: Install pnpm
-        uses:  pnpm/action-setup@v2
+        uses: pnpm/action-setup@v2
+
+      - name: Install Node
+        uses: actions/setup-node@v3
         with:
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
+
+      - name: Run lint
+        run: pnpm run lint:ci
+
       - name: Run tests
         run: pnpm run test:ci

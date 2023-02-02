@@ -13,22 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
       - name: Install Node
         uses: actions/setup-node@v3
         with:
           registry-url: "https://npm.pkg.github.com"
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
+          always-auth: true
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
-      - name: Compile
+      - name: Build Packages
         run: pnpm build
 
-      - run: npm publish
+      - name: Publish Packages
+        run: pnpm -r publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

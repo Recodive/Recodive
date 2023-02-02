@@ -1,1 +1,1 @@
-module.exports = require("./configs/.commitlintrc.js")
+module.exports = require("./packages/configs/configs/.commitlintrc.js")

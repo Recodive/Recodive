@@ -1,1 +1,1 @@
-module.exports = require("./configs/.lintstagedrc.js");
+module.exports = require("./packages/configs/configs/.lintstagedrc.js");

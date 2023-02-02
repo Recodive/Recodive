@@ -1,5 +1,4 @@
 declare const _default: {
-    eslint: any;
     commitlint: any;
     commitlintJira: any;
     lintstaged: any;

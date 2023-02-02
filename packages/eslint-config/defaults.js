@@ -1,7 +1,7 @@
 module.exports = {
 	root: true,
 	env: {
-		node: true
+		node: true,
 	},
 	parser: "@typescript-eslint/parser",
 	rules: {
@@ -11,7 +11,6 @@ module.exports = {
 		camelcase: ["error", { properties: "never", ignoreDestructuring: true }],
 		curly: ["error", "multi-or-nest"],
 		eqeqeq: ["error", "always", { null: "ignore" }],
-		"sort-imports": ["error", {ignoreCase: true,allowSeparatedGroups: true}],
 		"one-var": ["error", "consecutive"],
 		"linebreak-style": ["error", "unix"],
 		"prefer-const": "error",
@@ -22,8 +21,8 @@ module.exports = {
 			"error",
 			{
 				object: true,
-				array: false
-			}
+				array: false,
+			},
 		],
 		"prefer-template": "error",
 		"space-before-blocks": ["error", "always"],
@@ -37,7 +36,6 @@ module.exports = {
 		"no-console": "warn",
 		"no-var": "error",
 		"@typescript-eslint/no-explicit-any": "error",
-		"@typescript-eslint/no-unused-vars": "error",
 		"no-eval": "warn",
 		"no-undefined": "error",
 		"no-eq-null": "error",
@@ -68,8 +66,12 @@ module.exports = {
 		"unicorn/require-number-to-fixed-digits-argument": "error",
 		"unicorn/throw-new-error": "error",
 		"unicorn/no-unreadable-array-destructuring": "error",
-		"unicorn/prefer-logical-operator-over-ternary": "error"
+		"unicorn/prefer-logical-operator-over-ternary": "error",
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error",
+		"unused-imports/no-unused-imports": "error",
+		"unused-imports/no-unused-vars": ["warn", { vars: "all", varsIgnorePattern: "^_", args: "after-used", argsIgnorePattern: "^_" }],
 	},
-	plugins: ["@typescript-eslint", "unicorn"],
-	extends: ["eslint:recommended", "plugin:@typescript-eslint/eslint-recommended", "plugin:@typescript-eslint/recommended", "prettier"]
+	plugins: ["@typescript-eslint", "unicorn", "simple-import-sort", "unused-imports"],
+	extends: ["eslint:recommended", "plugin:@typescript-eslint/eslint-recommended", "plugin:@typescript-eslint/recommended", "prettier"],
 };

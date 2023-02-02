@@ -1,11 +1,11 @@
-import { describe, expect, test } from "vitest";
 import lint from "@commitlint/lint";
+import { describe, expect, test } from "vitest";
 
 describe("commitlint (JIRA)", () => {
 	// eslint-disable-next-line @typescript-eslint/no-var-requires
 	const functionRules = require("commitlint-plugin-function-rules"),
 		// eslint-disable-next-line @typescript-eslint/no-var-requires
-		{ parserPreset, rules } = require("../configs/jira.commitlintrc.js");
+		{ parserPreset, rules } = require("../packages/configs/configs/jira.commitlintrc.js");
 
 	const lintMessage = async (message: string) =>
 		lint(message.replace(/^\s+/, "").trim(), rules, {
