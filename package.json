@@ -1,4 +1,5 @@
 {
+	"type": "module",
 	"scripts": {
 		"prepare": "husky install",
 		"dev": "pnpm -r dev",

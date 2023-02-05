@@ -1,19 +1,17 @@
 import lint from "@commitlint/lint";
 import { describe, expect, test } from "vitest";
 
-describe("commitlint (JIRA)", () => {
-	// eslint-disable-next-line @typescript-eslint/no-var-requires
-	const functionRules = require("commitlint-plugin-function-rules"),
-		// eslint-disable-next-line @typescript-eslint/no-var-requires
-		{ parserPreset, rules } = require("../packages/configs/configs/jira.commitlintrc.js");
-
-	const lintMessage = async (message: string) =>
-		lint(message.replace(/^\s+/, "").trim(), rules, {
-			...parserPreset,
-			plugins: {
-				"commitlint-plugin-function-rules": functionRules,
-			},
-		});
+describe("commitlint (JIRA)", async () => {
+	const functionRules = await import("commitlint-plugin-function-rules"),
+		{ parserPreset, rules } = await import("../packages/configs/configs/jira.commitlintrc.js"),
+		lintMessage = async (message: string) =>
+			// @ts-expect-error - module issue
+			lint(message.replace(/^\s+/, "").trim(), rules, {
+				...parserPreset,
+				plugins: {
+					"commitlint-plugin-function-rules": functionRules,
+				},
+			});
 
 	test("a valid commit message", async () => {
 		let { valid, errors, warnings } = await lintMessage("feat(RCD-1): a valid commit message");
