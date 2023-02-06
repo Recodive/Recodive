@@ -49,6 +49,7 @@ module.exports = {
 		"unicorn/prefer-at": "error",
 		"unicorn/prefer-string-replace-all": "error",
 		"unicorn/filename-case": ["error", { cases: { camelCase: true, pascalCase: true } }],
+		"unicorn/switch-case-braces": ["error", "avoid"],
 		"simple-import-sort/imports": "error",
 		"simple-import-sort/exports": "error",
 		"unused-imports/no-unused-imports": "error",
