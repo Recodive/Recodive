@@ -10,7 +10,7 @@ importers:
       '@types/node': ^18.11.19
       '@types/prompts': ^2.4.2
       '@vitest/coverage-c8': ^0.28.4
-      '@vitest/ui': ^0.28.4
+      '@vitest/ui': ^0.29.0
       commitlint: ^17.4.2
       commitlint-plugin-function-rules: ^1.7.1
       eslint: ^8.33.0
@@ -35,11 +35,11 @@ importers:
       '@rushstack/eslint-patch': 1.2.0
       '@types/node': 18.11.19
       '@types/prompts': 2.4.2
-      '@vitest/coverage-c8': 0.28.4_@vitest+ui@0.28.4
-      '@vitest/ui': 0.28.4
+      '@vitest/coverage-c8': 0.28.4_@vitest+ui@0.29.1
+      '@vitest/ui': 0.29.1
       istanbul-badges-readme: 1.8.4
       typescript: 4.9.5
-      vitest: 0.28.4_@vitest+ui@0.28.4
+      vitest: 0.28.4_@vitest+ui@0.29.1
 
   packages/configs:
     specifiers:
@@ -48,7 +48,7 @@ importers:
       '@types/node': ^18.11.18
       '@types/prompts': ^2.4.2
       '@vitest/coverage-c8': ^0.28.0
-      '@vitest/ui': ^0.28.0
+      '@vitest/ui': ^0.29.0
       commitlint: ^17.4.0
       commitlint-plugin-function-rules: ^1.6.2
       istanbul-badges-readme: ^1.8.4
@@ -63,8 +63,8 @@ importers:
       '@commitlint/lint': 17.4.2
       '@types/node': 18.11.18
       '@types/prompts': 2.4.2
-      '@vitest/coverage-c8': 0.28.4_@vitest+ui@0.28.4
-      '@vitest/ui': 0.28.4
+      '@vitest/coverage-c8': 0.28.4_@vitest+ui@0.29.1
+      '@vitest/ui': 0.29.1
       istanbul-badges-readme: 1.8.4
       typescript: 4.9.4
 
@@ -744,13 +744,13 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: false
 
-  /@vitest/coverage-c8/0.28.4_@vitest+ui@0.28.4:
+  /@vitest/coverage-c8/0.28.4_@vitest+ui@0.29.1:
     resolution: {integrity: sha512-btelLBxaWhHnywXRQxDlrvPhGdnuIaD3XulsxcZRIcnpLPbFu39dNTT0IYu2QWP2ZZrV0AmNtdLIfD4c77zMAg==}
     dependencies:
       c8: 7.12.0
       picocolors: 1.0.0
       std-env: 3.3.2
-      vitest: 0.28.4_@vitest+ui@0.28.4
+      vitest: 0.28.4_@vitest+ui@0.29.1
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -787,8 +787,8 @@ packages:
       tinyspy: 1.0.2
     dev: true
 
-  /@vitest/ui/0.28.4:
-    resolution: {integrity: sha512-LQfCCFc17n49mwtraV9/NAWl2DUqJS/9ZEa3fqJjoYO+HowdseQ5jvWflpzliCyfrIAh6cXVo1bNzHnDXe0cbw==}
+  /@vitest/ui/0.29.1:
+    resolution: {integrity: sha512-CtcFlqcxNFT+5geTYfjOMOje4iae2DGsOnW1//7cre2xc43mFVOJYG7ZPq1wOUisDqSCyPLP2+zvAAlFJxBiUA==}
     dependencies:
       fast-glob: 3.2.12
       flatted: 3.2.7
@@ -3086,7 +3086,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.28.4_@vitest+ui@0.28.4:
+  /vitest/0.28.4_@vitest+ui@0.29.1:
     resolution: {integrity: sha512-sfWIy0AdlbyGRhunm+TLQEJrFH9XuRPdApfubsyLcDbCRrUX717BRQKInTgzEfyl2Ipi1HWoHB84Nqtcwxogcg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -3114,7 +3114,7 @@ packages:
       '@vitest/expect': 0.28.4
       '@vitest/runner': 0.28.4
       '@vitest/spy': 0.28.4
-      '@vitest/ui': 0.28.4
+      '@vitest/ui': 0.29.1
       '@vitest/utils': 0.28.4
       acorn: 8.8.2
       acorn-walk: 8.2.0
