@@ -30,7 +30,7 @@
 		"@vitest/ui": "^0.30.0",
 		"istanbul-badges-readme": "^1.8.4",
 		"typescript": "^5.0.0",
-		"vitest": "^0.29.0"
+		"vitest": "^0.30.0"
 	},
 	"packageManager": "pnpm@8.1.1",
 	"repository": {
