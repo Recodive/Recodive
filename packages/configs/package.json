@@ -1,6 +1,6 @@
 {
 	"name": "@recodive/configs",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Standard configuration files for Recodive projects",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
@@ -13,24 +13,19 @@
 		"build": "tsc"
 	},
 	"dependencies": {
-		"commitlint": "^17.4.0",
-		"commitlint-plugin-function-rules": "^1.6.2",
+		"commitlint": "^17.6.3",
+		"commitlint-plugin-function-rules": "^1.7.1",
 		"prompts": "^2.4.2"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.3.0",
-		"@commitlint/lint": "^17.3.0",
-		"@types/node": "^20.0.0",
-		"@types/prompts": "^2.4.2",
-		"@vitest/coverage-c8": "^0.31.0",
-		"@vitest/ui": "^0.31.0",
-		"istanbul-badges-readme": "^1.8.4",
-		"typescript": "^5.0.0"
-	},
-	"packageManager": "pnpm@8.5.1",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Recodive/Configs.git"
+		"@commitlint/cli": "^17.6.3",
+		"@commitlint/lint": "^17.6.3",
+		"@types/node": "^20.2.5",
+		"@types/prompts": "^2.4.4",
+		"@vitest/coverage-c8": "^0.31.1",
+		"@vitest/ui": "^0.31.1",
+		"istanbul-badges-readme": "^1.8.5",
+		"typescript": "^5.0.4"
 	},
 	"author": "Recodive",
 	"license": "MPL-2.0"
