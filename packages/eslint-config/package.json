@@ -2,7 +2,7 @@
 	"name": "@recodive/eslint-config",
 	"version": "1.2.2",
 	"description": "Shareable eslint config used by all Recodive projects",
-	"main": "index.js",
+	"main": "index.cjs",
 	"files": [
 		"*.js"
 	],
