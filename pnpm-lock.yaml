@@ -130,6 +130,9 @@ importers:
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
+      vue-eslint-parser:
+        specifier: ^9.3.0
+        version: 9.3.0(eslint@8.41.0)
 
 packages:
 
