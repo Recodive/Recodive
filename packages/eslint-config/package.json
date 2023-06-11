@@ -1,6 +1,6 @@
 {
 	"name": "@recodive/eslint-config",
-	"version": "1.3.4",
+	"version": "1.4.0",
 	"description": "Shareable eslint config used by all Recodive projects",
 	"main": "index.cjs",
 	"files": [
