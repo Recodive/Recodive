@@ -62,6 +62,13 @@ module.exports = {
 		"unicorn/prefer-at": "error",
 		"unicorn/prefer-string-replace-all": "error",
 		"unicorn/switch-case-braces": ["error", "avoid"],
+		//* Fixes gql template indentation with prettier fighting eslint
+		"unicorn/template-indent": [
+			"error",
+			{
+				indent: "\t",
+			},
+		],
 		"unused-imports/no-unused-imports": "error",
 		"unused-imports/no-unused-vars": ["warn", { args: "after-used", argsIgnorePattern: "^_", vars: "all", varsIgnorePattern: "^_" }],
 	},
