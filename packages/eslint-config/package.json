@@ -12,11 +12,12 @@
 		"eslint": "^8.41.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-simple-import-sort": "^10.0.0",
+		"eslint-plugin-sort-keys-fix": "^1.1.2",
 		"eslint-plugin-unicorn": "^47.0.0",
 		"eslint-plugin-unused-imports": "^2.0.0",
 		"eslint-plugin-vue": "^9.14.1",
-		"vue-eslint-parser": "^9.3.0",
-		"typescript": "^5.0.4"
+		"typescript": "^5.0.4",
+		"vue-eslint-parser": "^9.3.0"
 	},
 	"peerDependencies": {
 		"@rushstack/eslint-patch": "^1.2.0",
