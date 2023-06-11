@@ -11,6 +11,12 @@ module.exports = {
 	plugins: ["vue"],
 	rules: {
 		"no-undef": "off",
+		"vue/component-tags-order": [
+			"error",
+			{
+				order: ["script", "template", "style"],
+			},
+		],
 		"vue/multi-word-component-names": "off",
 	},
 };
