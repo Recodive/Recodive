@@ -15,7 +15,7 @@
 	},
 	"dependencies": {
 		"commitlint": "^17.6.3",
-		"commitlint-plugin-function-rules": "^1.7.1",
+		"commitlint-plugin-function-rules": "^2.0.0",
 		"eslint": "^8.41.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.2.2",

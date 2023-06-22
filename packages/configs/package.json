@@ -14,7 +14,7 @@
 	},
 	"dependencies": {
 		"commitlint": "^17.6.3",
-		"commitlint-plugin-function-rules": "^1.7.1",
+		"commitlint-plugin-function-rules": "^2.0.0",
 		"prompts": "^2.4.2"
 	},
 	"devDependencies": {

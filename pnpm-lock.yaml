@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -12,8 +12,8 @@ importers:
         specifier: ^17.6.3
         version: 17.6.3
       commitlint-plugin-function-rules:
-        specifier: ^1.7.1
-        version: 1.7.1(@commitlint/lint@17.6.3)
+        specifier: ^2.0.0
+        version: 2.0.0(@commitlint/lint@17.6.3)
       eslint:
         specifier: ^8.41.0
         version: 8.41.0
@@ -67,8 +67,8 @@ importers:
         specifier: ^17.6.3
         version: 17.6.3
       commitlint-plugin-function-rules:
-        specifier: ^1.7.1
-        version: 1.7.1(@commitlint/lint@17.6.3)
+        specifier: ^2.0.0
+        version: 2.0.0(@commitlint/lint@17.6.3)
       prompts:
         specifier: ^2.4.2
         version: 2.4.2
@@ -1223,9 +1223,9 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /commitlint-plugin-function-rules@1.7.1(@commitlint/lint@17.6.3):
-    resolution: {integrity: sha512-hGLShcCM3my+q3unMoznSfV23JmpJ/R8aHQ5KGzxVwv3HFpDS4cFWraCdBRAkMbL1UzUrVOEutG4EDur5S7AsA==}
-    engines: {node: '>=12'}
+  /commitlint-plugin-function-rules@2.0.0(@commitlint/lint@17.6.3):
+    resolution: {integrity: sha512-EV84gdxir4sL5fHfG++gXEKYjw/CYwnI86tt3S4Z/tyPpi89ULTy8aJJMTW08EAQ6SuPvWYbuCFMSkl3mvGn2g==}
+    engines: {node: '>=16'}
     peerDependencies:
       '@commitlint/lint': '>=9.1.2 <18'
     dependencies:
