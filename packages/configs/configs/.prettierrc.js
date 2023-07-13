@@ -4,5 +4,6 @@ module.exports = {
 	arrowParens: "avoid",
 	vueIndentScriptAndStyle: true,
 	printWidth: 160,
-	endOfLine: "lf"
+	endOfLine: "lf",
+	trailingComma: "es5"
 }
