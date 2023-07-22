@@ -11,7 +11,7 @@ module.exports = {
 		"prettier",
 	],
 	parser: "@typescript-eslint/parser",
-	plugins: ["@typescript-eslint", "unicorn", "simple-import-sort", "unused-imports", "sort-keys-fix"],
+	plugins: ["@typescript-eslint", "unicorn", "simple-import-sort", "unused-imports", "sort-keys-fix", "redos"],
 	root: true,
 	rules: {
 		"@typescript-eslint/array-type": ["error", { default: "array" }],
@@ -50,6 +50,7 @@ module.exports = {
 		"quote-props": ["error", "as-needed"],
 		quotes: ["error", "double", { avoidEscape: true }],
 		radix: "off",
+		"redos/no-vulnerable": "error",
 		semi: ["error", "always", { omitLastInOneLineBlock: true }],
 		"simple-import-sort/exports": "error",
 		"simple-import-sort/imports": "error",
