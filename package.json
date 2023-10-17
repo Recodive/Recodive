@@ -18,7 +18,7 @@
 		"commitlint-plugin-function-rules": "^2.0.0",
 		"eslint": "^8.41.0",
 		"husky": "^8.0.3",
-		"lint-staged": "^14.0.0",
+		"lint-staged": "^15.0.0",
 		"prettier": "^3.0.0",
 		"prompts": "^2.4.2"
 	},
