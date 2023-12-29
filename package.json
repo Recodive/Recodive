@@ -38,5 +38,5 @@
 		"type": "git",
 		"url": "git+https://github.com/Recodive/Recodive.git"
 	},
-	"packageManager": "pnpm@8.13.0"
+	"packageManager": "pnpm@8.13.1"
 }
