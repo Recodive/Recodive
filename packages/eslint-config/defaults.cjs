@@ -3,13 +3,7 @@ module.exports = {
 	env: {
 		node: true,
 	},
-	extends: [
-		"eslint:recommended",
-		"plugin:unicorn/recommended",
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended",
-		"prettier",
-	],
+	extends: ["eslint:recommended", "plugin:unicorn/recommended", "prettier"],
 	parser: "@typescript-eslint/parser",
 	plugins: ["@typescript-eslint", "unicorn", "simple-import-sort", "unused-imports", "sort-keys-fix", "redos"],
 	root: true,

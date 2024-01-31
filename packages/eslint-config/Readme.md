@@ -11,7 +11,9 @@ npm install --save-dev eslint @rushstack/eslint-patch @recodive/eslint-config
 ## Multiple configs
 This package provides multiple configs for different projects. As of now, there are configs for:
 - JavaScript/TypeScript projects (default)
+- JavaScript/TypeScript projects with strict type checking (`@recodive/eslint-config/strict`)
 - Vue projects (`@recodive/eslint-config/vue`)
+- Vue projects strict (`@recodive/eslint-config/vue-strict`)
 
 ## Usage
 Create a .eslintrc file in the root of your project with the following contents:

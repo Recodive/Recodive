@@ -20,12 +20,12 @@
 	"devDependencies": {
 		"@commitlint/cli": "^18.0.0",
 		"@commitlint/lint": "^18.0.0",
-		"@types/node": "^20.2.5",
-		"@types/prompts": "^2.4.4",
-		"@vitest/coverage-c8": "^0.33.0",
-		"@vitest/ui": "^1.0.0",
+		"@types/node": "^20.11.13",
+		"@types/prompts": "^2.4.9",
+		"@vitest/coverage-v8": "^1.2.2",
+		"@vitest/ui": "^1.2.2",
 		"istanbul-badges-readme": "^1.8.5",
-		"typescript": "^5.0.4"
+		"typescript": "^5.3.3"
 	},
 	"author": "Recodive",
 	"license": "MPL-2.0"
