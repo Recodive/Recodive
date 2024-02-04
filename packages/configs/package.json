@@ -1,6 +1,6 @@
 {
 	"name": "@recodive/configs",
-	"version": "1.1.2",
+	"version": "1.6.0",
 	"description": "Standard configuration files for Recodive projects",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
