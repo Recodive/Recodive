@@ -15,3 +15,5 @@ pnpm*
 *.png
 *.jpg
 *.jpeg
+*.js
+*.ts

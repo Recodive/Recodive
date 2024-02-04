@@ -5,7 +5,7 @@ import commitlint from "../packages/configs/configs/.commitlintrc.js";
 
 describe("commitlint", () => {
 	const { rules, parserPreset } = commitlint,
-		//@ts-expect-error - module issue
+		// @ts-expect-error - module issue
 		lintMessage = async (message: string) => lint(message.replace(/^\s+/, "").trim(), rules, parserPreset);
 
 	test("a valid commit message", async () => {
@@ -32,7 +32,7 @@ describe("commitlint", () => {
 		const { valid, errors, warnings } = await lintMessage(
 			`test(configs): a valid angular commit with a scope
 
-		Some content in the body`
+		Some content in the body`,
 		);
 
 		expect(valid).toBe(true);
@@ -43,7 +43,7 @@ describe("commitlint", () => {
 	test("a leading blank line after header", async () => {
 		const { valid, errors, warnings } = await lintMessage(
 			`test(configs): a valid angular commit with a scope
-		Some content in the body`
+		Some content in the body`,
 		);
 
 		expect(valid).toBe(false);

@@ -31,7 +31,7 @@ describe("commitlint (JIRA)", async () => {
 		const { valid, errors, warnings } = await lintMessage(
 			`test(RCD-1): a valid angular commit with a scope
 
-     Some content in the body`
+     Some content in the body`,
 		);
 
 		expect(valid).toBe(true);
@@ -42,7 +42,7 @@ describe("commitlint (JIRA)", async () => {
 	test("a leading blank line after header", async () => {
 		const { valid, errors, warnings } = await lintMessage(
 			`test(RCD-1): a valid angular commit with a scope
-     Some content in the body`
+     Some content in the body`,
 		);
 
 		expect(valid).toBe(false);

@@ -13,6 +13,7 @@
 		"./vue-strict": "./vueStrict.cjs"
 	},
 	"dependencies": {
+		"@stylistic/eslint-plugin": "^1.5.4",
 		"@typescript-eslint/eslint-plugin": "^6.20.0",
 		"@typescript-eslint/parser": "^6.20.0",
 		"eslint": "^8.56.0",
@@ -22,7 +23,7 @@
 		"eslint-plugin-sort-keys-fix": "^1.1.2",
 		"eslint-plugin-unicorn": "^50.0.1",
 		"eslint-plugin-unused-imports": "^3.0.0",
-		"eslint-plugin-vue": "^9.21.0",
+		"eslint-plugin-vue": "^9.21.1",
 		"typescript": "^5.3.3",
 		"vue-eslint-parser": "^9.4.2"
 	},

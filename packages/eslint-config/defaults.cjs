@@ -1,25 +1,32 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const stylistic = require("@stylistic/eslint-plugin");
+
+const customized = stylistic.configs.customize({
+	braceStyle: "1tbs",
+	indent: "tab",
+	quoteProps: "as-needed",
+	quotes: "double",
+	semi: true,
+});
+
 // eslint-disable-next-line unicorn/prefer-module
 module.exports = {
 	env: {
 		node: true,
 	},
-	extends: ["eslint:recommended", "plugin:unicorn/recommended", "prettier"],
+	extends: ["eslint:recommended", "plugin:unicorn/recommended"],
 	parser: "@typescript-eslint/parser",
-	plugins: ["@typescript-eslint", "unicorn", "simple-import-sort", "unused-imports", "sort-keys-fix", "redos"],
+	plugins: ["@typescript-eslint", "unicorn", "simple-import-sort", "unused-imports", "sort-keys-fix", "redos", "@stylistic"],
 	root: true,
 	rules: {
 		"@typescript-eslint/array-type": ["error", { default: "array" }],
 		"@typescript-eslint/no-explicit-any": "error",
 		"@typescript-eslint/no-unused-vars": "off",
 		"arrow-body-style": "off",
-		"brace-style": "error",
 		camelcase: ["error", { ignoreDestructuring: true, properties: "never" }],
 		curly: ["error", "multi-or-nest"],
 		"dot-notation": "error",
 		eqeqeq: ["error", "always", { null: "ignore" }],
-		"func-call-spacing": ["error", "never"],
-		"key-spacing": ["error", { beforeColon: false }],
-		"linebreak-style": ["error", "unix"],
 		"no-case-declarations": "error",
 		"no-console": "warn",
 		"no-empty": ["error", { allowEmptyCatch: true }],
@@ -41,30 +48,20 @@ module.exports = {
 			},
 		],
 		"prefer-template": "error",
-		"quote-props": ["error", "as-needed"],
-		quotes: ["error", "double", { avoidEscape: true }],
 		radix: "off",
 		"redos/no-vulnerable": "error",
-		semi: ["error", "always", { omitLastInOneLineBlock: true }],
 		"simple-import-sort/exports": "error",
 		"simple-import-sort/imports": "error",
 		"sort-keys-fix/sort-keys-fix": "error",
 		"space-before-blocks": ["error", "always"],
 		"space-infix-ops": "error",
-		"template-curly-spacing": "error",
 		"unicorn/filename-case": ["error", { cases: { camelCase: true, pascalCase: true } }],
 		"unicorn/no-unused-properties": "error",
 		"unicorn/prefer-at": "error",
 		"unicorn/prefer-string-replace-all": "error",
 		"unicorn/switch-case-braces": ["error", "avoid"],
-		//* Fixes gql template indentation with prettier fighting eslint
-		"unicorn/template-indent": [
-			"error",
-			{
-				indent: "\t",
-			},
-		],
 		"unused-imports/no-unused-imports": "error",
 		"unused-imports/no-unused-vars": ["warn", { args: "after-used", argsIgnorePattern: "^_", vars: "all", varsIgnorePattern: "^_" }],
+		...customized.rules,
 	},
 };
