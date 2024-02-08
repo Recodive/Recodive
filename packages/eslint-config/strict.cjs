@@ -7,4 +7,11 @@ config.extends.push(
 	"plugin:@typescript-eslint/stylistic-type-checked",
 );
 
+config.overrides = [
+	{
+		extends: ["plugin:@typescript-eslint/disable-type-checked"],
+		files: ["./**/*.{cjs,js,jsx}"],
+	},
+],
+
 module.exports = config;
