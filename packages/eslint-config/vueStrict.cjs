@@ -5,7 +5,7 @@ base.extends.push(
 	require.resolve("./defaults.cjs"),
 	"plugin:@typescript-eslint/recommended-type-checked",
 	"plugin:@typescript-eslint/strict-type-checked",
-	"plugin:@typescript-eslint/stylistic-type-checked"
+	"plugin:@typescript-eslint/stylistic-type-checked",
 );
 
 module.exports = base;

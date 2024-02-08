@@ -63,5 +63,6 @@ module.exports = {
 		"unused-imports/no-unused-imports": "error",
 		"unused-imports/no-unused-vars": ["warn", { args: "after-used", argsIgnorePattern: "^_", vars: "all", varsIgnorePattern: "^_" }],
 		...customized.rules,
+		"@stylistic/quotes": ["error", "double", { avoidEscape: true }],
 	},
 };

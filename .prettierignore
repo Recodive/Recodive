@@ -17,3 +17,4 @@ pnpm*
 *.jpeg
 *.js
 *.ts
+*.cjs
