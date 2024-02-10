@@ -3,7 +3,7 @@ const stylistic = require("@stylistic/eslint-plugin");
 
 const customized = stylistic.configs.customize({
 	braceStyle: "1tbs",
-	indent: "tab",
+	indent: "",
 	quoteProps: "as-needed",
 	quotes: "double",
 	semi: true,
@@ -64,5 +64,7 @@ module.exports = {
 		"unused-imports/no-unused-vars": ["warn", { args: "after-used", argsIgnorePattern: "^_", vars: "all", varsIgnorePattern: "^_" }],
 		...customized.rules,
 		"@stylistic/quotes": ["error", "double", { avoidEscape: true }],
+		//* Eslint doesn't quite know what the status with this rule is, docs say disabled in recommended but apparently not...
+		"no-mixed-spaces-and-tabs": "off",
 	},
 };
