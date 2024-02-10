@@ -3,7 +3,7 @@ const stylistic = require("@stylistic/eslint-plugin");
 
 const customized = stylistic.configs.customize({
 	braceStyle: "1tbs",
-	indent: "tabs",
+	indent: "tab",
 	quoteProps: "as-needed",
 	quotes: "double",
 	semi: true,
