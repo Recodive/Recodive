@@ -1,8 +1,8 @@
 name: Publish Package GHPR
 on:
-  release:
-    types: [created]
-    branches: ["main"]
+  push:
+    tags:
+      - "*"
 jobs:
   build:
     runs-on: ubuntu-latest
