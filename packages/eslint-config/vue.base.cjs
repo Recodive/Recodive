@@ -16,6 +16,7 @@ module.exports = {
 				order: ["script", "template", "style"],
 			},
 		],
+		"vue/html-indent": ["error", "tab"],
 		"vue/multi-word-component-names": "off",
 	},
 };
