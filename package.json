@@ -10,8 +10,8 @@
 		"test": "vitest --run",
 		"test:watch": "vitest --ui",
 		"test:ci": "vitest --run --coverage",
-		"lint": "eslint --fix --ext .ts,.cjs ./ && prettier -w .",
-		"lint:ci": "eslint --ext .ts,.cjs ./ && prettier --check .",
+		"lint": "eslint --fix . && prettier -w .",
+		"lint:ci": "eslint . && prettier --check .",
 		"gen-badges": "vitest run --coverage && istanbul-badges-readme --logo=\"vitest\" && git add README.md",
 		"release": "bumpp -r"
 	},

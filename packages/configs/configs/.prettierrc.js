@@ -1,8 +1,9 @@
+/* eslint-disable unicorn/prefer-module */
 module.exports = {
-	useTabs: true,
-	proseWrap: "never",
-	vueIndentScriptAndStyle: true,
-	printWidth: 160,
 	endOfLine: "lf",
-	trailingComma: "es5"
-}
+	printWidth: 160,
+	proseWrap: "never",
+	trailingComma: "es5",
+	useTabs: true,
+	vueIndentScriptAndStyle: true,
+};
