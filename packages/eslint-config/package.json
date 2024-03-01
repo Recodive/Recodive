@@ -15,25 +15,25 @@
 		"./strictFlat": "./strictFlat.mjs"
 	},
 	"dependencies": {
-		"@stylistic/eslint-plugin": "^1.5.4",
-		"@typescript-eslint/eslint-plugin": "^6.20.0",
-		"@typescript-eslint/parser": "^6.20.0",
+		"@stylistic/eslint-plugin": "^1.6.3",
+		"@typescript-eslint/eslint-plugin": "^7.1.0",
+		"@typescript-eslint/parser": "^7.1.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-redos": "^4.4.5",
-		"eslint-plugin-simple-import-sort": "^10.0.0",
+		"eslint-plugin-simple-import-sort": "^12.0.0",
 		"eslint-plugin-sort-keys-fix": "^1.1.2",
-		"eslint-plugin-unicorn": "^50.0.1",
-		"eslint-plugin-unused-imports": "^3.0.0",
-		"eslint-plugin-vue": "^9.21.1",
+		"eslint-plugin-unicorn": "^51.0.1",
+		"eslint-plugin-unused-imports": "^3.1.0",
+		"eslint-plugin-vue": "^9.22.0",
 		"typescript-eslint": "^7.1.0",
 		"vue-eslint-parser": "^9.4.2"
 	},
 	"peerDependencies": {
 		"@rushstack/eslint-patch": "^1.2.0",
-		"typescript": ">= 5.3.3",
-		"eslint": ">= 8.38.0"
+		"eslint": ">= 8.38.0",
+		"typescript": ">= 5.3.3"
 	},
 	"devDependencies": {
-		"eslint": "^8.56.0"
+		"eslint": "^8.57.0"
 	}
 }
