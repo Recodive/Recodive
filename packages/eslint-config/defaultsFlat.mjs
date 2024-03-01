@@ -72,7 +72,6 @@ export default [
 			"unicorn/prefer-string-replace-all": "error",
 			"unicorn/switch-case-braces": ["error", "avoid"],
 			"unused-imports/no-unused-imports": "error",
-			"unused-imports/no-unused-vars": ["warn", { args: "after-used", argsIgnorePattern: "^_", vars: "all", varsIgnorePattern: "^_" }],
 		},
 	},
 	stylistic.configs["disable-legacy"],
