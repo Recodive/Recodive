@@ -4,7 +4,8 @@
 	"description": "Shareable eslint config used by all Recodive projects",
 	"main": "index.cjs",
 	"files": [
-		"*.cjs"
+		"*.cjs",
+		"*.mjs"
 	],
 	"exports": {
 		".": "./index.cjs",
