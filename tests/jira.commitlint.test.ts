@@ -2,7 +2,7 @@ import lint from "@commitlint/lint";
 import { describe, expect, test } from "vitest";
 
 describe("commitlint (JIRA)", async () => {
-	const functionRules = await import("commitlint-plugin-function-rules"),
+	const { plugin: functionRules } = await import("commitlint-plugin-function-rules"),
 		{ parserPreset, rules } = await import("../packages/configs/configs/jira.commitlintrc.js"),
 		lintMessage = async (message: string) =>
 			// @ts-expect-error - module issue

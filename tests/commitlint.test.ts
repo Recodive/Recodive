@@ -63,7 +63,7 @@ describe("commitlint", () => {
 		const { valid, errors, warnings } = await lintMessage("no is not not an invalid commit type");
 
 		expect(valid).toBe(false);
-		expect(errors[0].message).toBe("type may not be empty");
+		expect(errors.map(({ message }) => message)).toContain("type may not be empty");
 		expect(warnings).toStrictEqual([]);
 	});
 
@@ -95,7 +95,7 @@ describe("commitlint", () => {
 		const { valid, errors, warnings } = await lintMessage("test(configs):");
 
 		expect(valid).toBe(false);
-		expect(errors[0].message).toBe("type may not be empty");
+		expect(errors.map(({ message }) => message)).toContain("type may not be empty");
 		expect(warnings).toStrictEqual([]);
 	});
 
@@ -103,7 +103,7 @@ describe("commitlint", () => {
 		const { valid, errors, warnings } = await lintMessage("test(configs) dwadwadwa");
 
 		expect(valid).toBe(false);
-		expect(errors[0].message).toBe("type may not be empty");
+		expect(errors.map(({ message }) => message)).toContain("type may not be empty");
 		expect(warnings).toStrictEqual([]);
 	});
 
