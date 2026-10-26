@@ -18,7 +18,7 @@ overrides:
   minimatch@>=3.0.0 <4.0.0: ^3.1.4
   minimatch@>=9.0.0 <10.0.0: ^9.0.7
   nanoid@>=3.0.0 <4.0.0: ^3.3.18
-  picomatch@>=2.0.0 <3.0.0: ^2.3.2
+  picomatch@>=2.0.0 <3.0.0: ^4.0.0
   picomatch@>=4.0.0 <5.0.0: ^4.0.4
   postcss@>=8.0.0 <9.0.0: ^8.5.18
   rollup@>=4.0.0 <5.0.0: ^4.59.0
@@ -1486,7 +1486,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       normalize-path: 3.0.0
-      picomatch: 2.3.2
+      picomatch: 4.0.7
     dev: true
 
   /argparse@2.0.1:
@@ -2861,7 +2861,7 @@ packages:
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.3
-      picomatch: 2.3.2
+      picomatch: 4.0.7
 
   /mimic-fn@2.1.0:
     resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
@@ -3134,14 +3134,9 @@ packages:
   /picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
-  /picomatch@2.3.2:
-    resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
-    engines: {node: '>=8.6'}
-
   /picomatch@4.0.7:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
-    dev: false
 
   /pidtree@0.6.0:
     resolution: {integrity: sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==}
@@ -3257,7 +3252,7 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
     dependencies:
-      picomatch: 2.3.2
+      picomatch: 4.0.7
     dev: true
 
   /recheck-jar@4.4.5:
@@ -3831,7 +3826,7 @@ packages:
       cac: 6.7.14
       debug: 4.3.4
       pathe: 1.1.2
-      picocolors: 1.0.0
+      picocolors: 1.1.1
       vite: 5.1.5(@types/node@20.11.13)
     transitivePeerDependencies:
       - '@types/node'
@@ -4013,7 +4008,7 @@ packages:
       local-pkg: 0.5.0
       magic-string: 0.30.8
       pathe: 1.1.2
-      picocolors: 1.0.0
+      picocolors: 1.1.1
       std-env: 3.7.0
       strip-literal: 2.0.0
       tinybench: 2.6.0
