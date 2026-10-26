@@ -2,7 +2,7 @@
 
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
-| ![Statements](https://img.shields.io/badge/statements-100%25-brightgreen.svg?style=flat&logo=vitest) | ![Branches](https://img.shields.io/badge/branches-100%25-brightgreen.svg?style=flat&logo=vitest) | ![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat&logo=vitest) | ![Lines](https://img.shields.io/badge/lines-100%25-brightgreen.svg?style=flat&logo=vitest) |
+| ![Statements](https://img.shields.io/badge/statements-12.01%25-red.svg?style=flat&logo=vitest) | ![Branches](https://img.shields.io/badge/branches-62.06%25-red.svg?style=flat&logo=vitest) | ![Functions](https://img.shields.io/badge/functions-8.33%25-red.svg?style=flat&logo=vitest) | ![Lines](https://img.shields.io/badge/lines-12.01%25-red.svg?style=flat&logo=vitest) |
 
 This is the monorepo for the Recodive project. It contains the following packages:
 
