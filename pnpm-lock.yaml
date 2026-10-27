@@ -30,7 +30,7 @@ importers:
     dependencies:
       commitlint:
         specifier: ^18.0.0
-        version: 18.6.0(@types/node@20.11.13)(typescript@5.3.3)
+        version: 18.6.1(@types/node@20.11.13)(typescript@5.3.3)
       commitlint-plugin-function-rules:
         specifier: ^2.0.0
         version: 2.0.2(@commitlint/lint@18.6.1)
@@ -88,7 +88,7 @@ importers:
     dependencies:
       commitlint:
         specifier: ^18.0.0
-        version: 18.6.0(@types/node@20.11.13)(typescript@5.3.3)
+        version: 18.6.1(@types/node@20.11.13)(typescript@5.3.3)
       commitlint-plugin-function-rules:
         specifier: ^2.0.0
         version: 2.0.2(@commitlint/lint@18.6.1)
@@ -360,13 +360,6 @@ packages:
     engines: {node: '>=v18'}
     dependencies:
       find-up: 5.0.0
-
-  /@commitlint/types@18.6.0:
-    resolution: {integrity: sha512-oavoKLML/eJa2rJeyYSbyGAYzTxQ6voG5oeX3OrxpfrkRWhJfm4ACnhoRf5tgiybx2MZ+EVFqC1Lw3W8/uwpZA==}
-    engines: {node: '>=v18'}
-    dependencies:
-      chalk: 4.1.2
-    dev: false
 
   /@commitlint/types@18.6.1:
     resolution: {integrity: sha512-gwRLBLra/Dozj2OywopeuHj2ac26gjGkz2cZ+86cTJOdtWfiRRr4+e77ZDAGc6MDWxaWheI+mAV5TLWWRwqrFg==}
@@ -2174,13 +2167,13 @@ packages:
       '@commitlint/lint': 18.6.1
     dev: false
 
-  /commitlint@18.6.0(@types/node@20.11.13)(typescript@5.3.3):
-    resolution: {integrity: sha512-CiY4gz0ftWwr96aYvXfbCX0pvJ1mupdUL2HACzXyyb7YMRU4vodjFROCZ8ny4i5Dhpu8uRZerPPaGkUOZY/kVQ==}
+  /commitlint@18.6.1(@types/node@20.11.13)(typescript@5.3.3):
+    resolution: {integrity: sha512-I10mj1OmBCrPUHItRqeCEj0uxCdWxL15sCfS1Poq8av2FcX/KvRoiH8jTNG0cVDA2ns7IftugTAM+nLvOavLsw==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
       '@commitlint/cli': 18.6.1(@types/node@20.11.13)(typescript@5.3.3)
-      '@commitlint/types': 18.6.0
+      '@commitlint/types': 18.6.1
     transitivePeerDependencies:
       - '@types/node'
       - typescript
