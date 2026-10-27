@@ -41,7 +41,7 @@
 		"type": "git",
 		"url": "git+https://github.com/Recodive/Recodive.git"
 	},
-	"packageManager": "pnpm@8.15.7",
+	"packageManager": "pnpm@8.15.9",
 	"pnpm": {
 		"overrides": {
 			"brace-expansion@>=1.0.0 <2.0.0": "^1.1.20",
