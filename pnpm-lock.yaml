@@ -76,7 +76,7 @@ importers:
         version: 9.11.1
       istanbul-badges-readme:
         specifier: ^1.8.5
-        version: 1.8.5
+        version: 1.9.0
       typescript:
         specifier: ^5.0.4
         version: 5.3.3
@@ -116,7 +116,7 @@ importers:
         version: 1.6.1(vitest@1.6.1)
       istanbul-badges-readme:
         specifier: ^1.8.5
-        version: 1.8.5
+        version: 1.9.0
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -3193,8 +3193,8 @@ packages:
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  /istanbul-badges-readme@1.8.5:
-    resolution: {integrity: sha512-VEh90ofuufPZIbLeDF2g14wpe0sebhirG0xHooYKpNPYOkGXm6y+HJFotQqIzCg0NmbCnlKnOPL1B2oxG7/piA==}
+  /istanbul-badges-readme@1.9.0:
+    resolution: {integrity: sha512-sD9lTsFajcfK07euJReQ0C9dy0VmXViMDJk67EZseGRC+jv+esxt5I3Viqoi1b43m5in5ek5b+0rpxJi41bJVw==}
     hasBin: true
     dev: true
 
