@@ -16,7 +16,7 @@
 		"./strictFlat": "./strictFlat.mjs"
 	},
 	"dependencies": {
-		"@stylistic/eslint-plugin": "^1.6.3",
+		"@stylistic/eslint-plugin": "^5.0.0",
 		"@typescript-eslint/eslint-plugin": "^7.1.1",
 		"@typescript-eslint/parser": "^7.1.1",
 		"eslint-config-prettier": "^9.1.0",
