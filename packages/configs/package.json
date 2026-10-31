@@ -20,7 +20,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^18.0.0",
 		"@commitlint/lint": "^18.0.0",
-		"@types/node": "^20.11.13",
+		"@types/node": "^26.0.0",
 		"@types/prompts": "^2.4.9",
 		"@vitest/coverage-v8": "^1.2.2",
 		"@vitest/ui": "^1.2.2",
