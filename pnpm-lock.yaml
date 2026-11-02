@@ -136,8 +136,8 @@ importers:
         specifier: ^8.0.0
         version: 8.72.1(eslint@8.57.1)(typescript@6.0.3)
       eslint-config-prettier:
-        specifier: ^9.1.0
-        version: 9.1.2(eslint@8.57.1)
+        specifier: ^10.0.0
+        version: 10.1.8(eslint@8.57.1)
       eslint-plugin-redos:
         specifier: ^4.4.5
         version: 4.6.2(eslint@8.57.1)
@@ -2740,8 +2740,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  /eslint-config-prettier@9.1.2(eslint@8.57.1):
-    resolution: {integrity: sha512-iI1f+D2ViGn+uvv5HuHVUamg8ll4tN+JRHGc6IJi4TP9Kl976C57fzPXgseXNs8v0iA8aSJpHsTWjDb9QJamGQ==}
+  /eslint-config-prettier@10.1.8(eslint@8.57.1):
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
