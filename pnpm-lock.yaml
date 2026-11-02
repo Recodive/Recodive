@@ -32,8 +32,8 @@ importers:
         specifier: ^18.0.0
         version: 18.6.1(@types/node@26.6.6)(typescript@5.9.3)
       commitlint-plugin-function-rules:
-        specifier: ^2.0.0
-        version: 2.0.2(@commitlint/lint@21.2.4)
+        specifier: ^5.0.0
+        version: 5.0.1(@commitlint/lint@21.2.4)
       eslint:
         specifier: ^8.57.0
         version: 8.57.1
@@ -90,8 +90,8 @@ importers:
         specifier: ^18.0.0
         version: 18.6.1(@types/node@26.6.6)(typescript@5.9.3)
       commitlint-plugin-function-rules:
-        specifier: ^2.0.0
-        version: 2.0.2(@commitlint/lint@21.2.4)
+        specifier: ^5.0.0
+        version: 5.0.1(@commitlint/lint@21.2.4)
       prompts:
         specifier: ^2.4.2
         version: 2.4.2
@@ -2392,11 +2392,11 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /commitlint-plugin-function-rules@2.0.2(@commitlint/lint@21.2.4):
-    resolution: {integrity: sha512-SZIn5H3pTzZo1wlef17lYeduFDUHklvtYW9+jFs3uoXkezLbxTN13CrV9g2I9NRc9bhrW8RdkOesV2dZA224sg==}
-    engines: {node: '>=16'}
+  /commitlint-plugin-function-rules@5.0.1(@commitlint/lint@21.2.4):
+    resolution: {integrity: sha512-AC8fH83A+soNq9VKTlLptkbg8Zpfx88ng9hKzdiJ0N+GoYgWTWNt6yFA3zEZ0qy3ekQ4Paf1slkaH1UKWRLUvg==}
+    engines: {node: '>=22'}
     peerDependencies:
-      '@commitlint/lint': '>=9.1.2 <18'
+      '@commitlint/lint': '>=19 <22'
     dependencies:
       '@commitlint/lint': 21.2.4
     dev: false
