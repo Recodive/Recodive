@@ -155,7 +155,7 @@ importers:
         version: 4.4.1(@typescript-eslint/eslint-plugin@8.72.2)(eslint@8.57.1)
       eslint-plugin-vue:
         specifier: ^10.0.0
-        version: 10.12.0(@stylistic/eslint-plugin@5.10.0)(@typescript-eslint/parser@8.72.2)(eslint@8.57.1)(vue-eslint-parser@10.4.2)
+        version: 10.12.1(@stylistic/eslint-plugin@5.10.0)(@typescript-eslint/parser@8.72.2)(eslint@8.57.1)(vue-eslint-parser@10.4.2)
       typescript:
         specifier: '>= 5.3.3'
         version: 6.0.3
@@ -1864,12 +1864,6 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  /cssesc@3.0.0:
-    resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
-    engines: {node: '>=4'}
-    hasBin: true
-    dev: false
-
   /debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
@@ -2065,8 +2059,8 @@ packages:
       eslint: 8.57.1
     dev: false
 
-  /eslint-plugin-vue@10.12.0(@stylistic/eslint-plugin@5.10.0)(@typescript-eslint/parser@8.72.2)(eslint@8.57.1)(vue-eslint-parser@10.4.2):
-    resolution: {integrity: sha512-YsrHHtMaxjWqmxr/Kv9yXUfakUlbTCWtIBvr9eounzj6ZsGJdz1I4UuTIHkhzKHes793Cwo3PGTcvsoBqNyzCA==}
+  /eslint-plugin-vue@10.12.1(@stylistic/eslint-plugin@5.10.0)(@typescript-eslint/parser@8.72.2)(eslint@8.57.1)(vue-eslint-parser@10.4.2):
+    resolution: {integrity: sha512-Z5hmchVWq4EEOCn131J2p/uS4hjkrC+goPV5c/YApTY68xTqV3K5IYqD0mYGupDvZ6iYoTSuhSZUoWN+gZIqZQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       '@stylistic/eslint-plugin': ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -2085,8 +2079,8 @@ packages:
       eslint: 8.57.1
       natural-compare: 1.4.0
       nth-check: 2.1.1
-      postcss-selector-parser: 7.1.7
-      semver: 7.8.5
+      postcss-selector-parser: 7.2.1
+      semver: 7.8.6
       vue-eslint-parser: 10.4.2(eslint@8.57.1)
       xml-name-validator: 5.0.0
     dev: false
@@ -2960,11 +2954,10 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /postcss-selector-parser@7.1.7:
-    resolution: {integrity: sha512-wWBro/7hJ40ye6TPiXkUQoXKCw23xSsjriUvqd7Uls9Sso3oLiON1flc18cCdnjgCRXw4fBVqUJJeOdDTh3P3g==}
+  /postcss-selector-parser@7.2.1:
+    resolution: {integrity: sha512-GwxlMgTTXwIom+ebC7an3k6RaJDwklRQQnfiXsLPGicu8FYV/k/+1/9YY2OU2+r938H2t4X0TDxoif+HP2rjzQ==}
     engines: {node: '>=4'}
     dependencies:
-      cssesc: 3.0.0
       util-deprecate: 1.0.2
     dev: false
 
